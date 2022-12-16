@@ -1,0 +1,476 @@
+/*Pagina*/
+html {
+    background-color: #f4f4f4 ;
+}
+
+body {
+    background-color: #f4f4f4  !important;
+}
+
+/*texto*/
+.textblack {
+    color: rgb(0, 0, 0) !important;
+    text-align: center;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textleft{
+    text-align: left;
+    padding-left: 15px;
+}
+.centroiz{
+    padding-left: 10%;
+}
+.lft{
+    text-align: left;
+}
+.titulo{
+    text-decoration: underline;
+}
+.parraf{
+    font: 1.2em sans-serif;
+}
+
+.letras{
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+}
+
+/*Navegador*/
+#titulo img {
+    height: 60px;
+}
+
+#contnav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-size {
+    width: 18%;
+}
+
+.pr {
+    padding-right: 20px;
+}
+
+.pt {
+    padding-top: 10px;
+}
+
+a {
+   color: white;
+    text-decoration: none !important;
+}
+
+#busqueda {
+    margin-left: auto;
+}
+
+.cb {
+    clear: both;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.bg-01 {
+    background-color: rgb(22, 22, 94);
+}
+
+a:hover {
+    color: rgba(247, 143, 45, 0.9) !important;
+}
+
+.fnd{
+    background-color: #258E9E !important;
+}
+
+.navb{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black !important;
+}
+
+.aspc li a{
+    color: black !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.aspc li a:hover{
+    color: #640bd2 !important;
+}
+/*Footer*/
+footer{
+    color: white;
+    background-color: black;
+}
+
+#contfooter {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    margin-bottom: -25px;
+}
+
+.spc0{
+    height: 20px;
+}
+.fottext{
+    color: gray;
+}
+.fottext a{
+    color: gray;
+}
+.centro{
+    text-align: center;
+}
+
+/*Dialog*/
+.xmodal{
+    float: right;
+}
+dialog{
+    width: 900px;
+    height: 525px;
+}
+dialog img{
+    width: 50px;
+    clear: both;
+}
+/*HOME*/
+/*HOME BLOQUE 1*/
+.home1 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home1 img{
+    width: 100%;
+    height: 400px;
+}
+
+.eslogan {
+    color: rgb(255, 255, 255);
+    padding-top: 15%;
+    width: 80%;
+    float: left;
+    text-align: right;
+    font-family: "Avant Garde";
+    font-size: 400%;
+}
+
+.frase {
+    background-color: black;
+    opacity: 75%;
+}
+
+.m,.k {
+    color: rgb(43, 0, 255);
+}
+
+/*HOME BLOQUE 2*/
+.home2 {
+    padding-top: 20px;
+    width: 100%;
+  
+}
+
+.imgcardservice img {
+    width: 95px;
+}
+
+.bodycardservice {
+    height: 150px;
+    opacity: 80%;
+    color: black;
+}
+
+.bodycardservice h5 {
+    text-align: center;
+}
+
+.col-a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.col-a::after {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.col-a:hover {
+    text-decoration: none !important;
+    color: black !important;
+    opacity: 80%;
+}
+
+#flecha {
+    float: right;
+    width: 25%;
+}
+
+#flecha img{
+    width: 80%;
+}
+
+/*HOME BLOQUE 3*/
+.home3 {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 0 20px 0;
+}
+
+.carruselhome3 {
+    width: 100%;
+}
+
+.carruselhome3img {
+    width: 100%;
+    float: left;
+}
+
+.carruselhome3img img {
+    width: 100%;
+    height: 312px;
+}
+
+.carruselhome3text {
+    float: right;
+    height: min-content;
+}
+
+.subry{
+    text-decoration: underline;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(./flecha\ izq.png) !important;
+}
+
+.carousel-control-next-icon{
+    background-image: url(./flecha\ drc.png) !important;
+}
+/*HOME BLOQUE 4*/
+.home4 {
+    width: 100%;
+}
+
+#home4titulo{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
+}
+
+.home4card {
+    text-align: center;
+
+}
+
+.home4cardt {
+    text-align: center;
+    font-size: 200%;
+}
+
+.aq {
+    background-color: aqua;
+}
+
+.aw {
+    background-color: antiquewhite;
+}
+
+.re {
+    background-color: darkkhaki;
+}
+
+.spc{
+    height: 20px;
+}
+.spc2{
+    height: 80px;
+}
+
+.part1{
+    font-size: 1.5em;
+    
+}
+
+.part3{
+    font-size: 1.2em;
+}
+.part3 img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.puntuacion img{
+    width: 15%;
+}
+
+/*SERVICIOS*/
+.sep {
+    height: 10px;
+    width: 100%;
+}
+
+.sblock {
+    min-height: 500px;
+    color: rgb(0, 0, 0);
+}
+hr{
+    height: 5px !important;
+}
+
+/*SERVICIOS BLOQUE 1*/
+
+.servicioblockimg {
+    display: inline;
+}
+
+.servicioblockimg img {
+    width: 100%;
+}
+
+.servicioblocktext {
+    display: inline;
+}
+
+.Nt1contiframe{
+    width: 30%;
+}
+
+iframe{
+    size: 100%;
+}
+
+.hm{
+    height: 50px;
+}
+
+.redirec0{
+    padding: 5%;
+}
+
+/*NOSOTROS*/
+#nosotros1{
+    padding-top: 20px;
+    min-height: 500px;
+}
+#nost1 img{
+    width:100%;
+}
+#nost1{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.redirec{
+    padding: 10%;
+}
+
+/*CONTACTO*/
+.maps iframe{
+    width: 80%;
+}
+.maps div{
+    text-align: left;
+}
+.maps div img{
+    width: 10%;
+}
+form{
+    padding-left: 5%;
+    width: fit-content;
+}
+fieldset{
+    width: fit-content;
+}
+fieldset div{
+    clear: both;
+}
+fieldset label{
+    float: left;
+}
+fieldset input{
+    float: right;
+}
+#bt{
+    padding-top: 20px;
+}
+#fotoform img{
+    width: 80%;
+}
+/*Diseño*/
+#diseag img{
+    width: 100%;
+}
+#diseagt {
+    background-color: rgb(0, 0, 0);
+}
+#diseagt img{
+    width: 20%;
+}
+.lol{
+    color: rgb(255, 255, 255);
+    padding: 3% 0 0 3%;
+    clear: both;
+}
+
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.pt{
+    padding-top: 9%;
+    padding-left: 5%;
+}
+#ytb{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 15%;
+    text-align: center;
+    width: 200px;
+}
+#ytb img{
+    width: 20%;
+}
+.p42{
+    width: fit-content;
+}
+#multi{
+ clear: both;
+}
+#multi img{
+    width: 25%;
+}
+
+/*Marketing*/
+.mko{
+    clear: both;
+}
+#mko1{
+    width: 10%;
+}
+#mko2{
+    width: 90%;
+}
